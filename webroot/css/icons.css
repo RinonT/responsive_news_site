@@ -1,0 +1,42 @@
+.icon {
+  background-repeat: no-repeat;
+  background-size: 1rem;
+  background-position: 50% 50%;
+}
+
+.icon_contact   { background-image: url(../images/icons/icon_contact.svg); }
+.icon_discovery { background-image: url(../images/icons/icon_discover.svg); }
+.icon_home      { background-image: url(../images/icons/icon_home.svg); }
+.icon_menu      { background-image: url(../images/icons/icon_menu.svg); }
+.icon_next      { background-image: url(../images/icons/icon_arrow_right.svg); }
+.icon_photos    { background-image: url(../images/icons/icon_photos.svg); }
+.icon_previous  { background-image: url(../images/icons/icon_arrow_left.svg); }
+
+/* Social icons */
+.icon_facebook,
+.icon_instagram,
+.icon_twitter,
+.icon_web {
+  display: block;
+  width: 1rem;
+  height: 1rem;
+  text-indent: -999rem;
+  padding: 0.5rem;
+  border-radius: 0.25rem;
+  transition: background-color .3s;
+  margin: 0 -0.5rem;
+}
+
+.icon_facebook:hover,
+.icon_instagram:hover,
+.icon_twitter:hover,
+.icon_web:hover {
+  background-color: rgba(255,255,255,.2);
+}
+
+.icon_facebook  { background-image: url(../images/icons/icon_facebook_white.svg); }
+.icon_instagram { background-image: url(../images/icons/icon_instagram_white.svg); }
+.icon_twitter   { background-image: url(../images/icons/icon_twitter_white.svg); }
+.icon_web       { background-image: url(../images/icons/icon_world_white.svg); }
+
+

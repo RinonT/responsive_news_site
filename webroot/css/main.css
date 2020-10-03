@@ -1,0 +1,29 @@
+main {
+  padding: 0;
+}
+
+@media (min-width: 1440px) {
+  main {
+    display: grid;
+    grid-template-columns: 840px 660px;
+    grid-template-areas: "feature more-news"
+                          "trending trending"
+                          "happening happening";
+  }
+
+  section:first-of-type {
+    grid-area: feature;
+  }
+
+  section:nth-of-type(2) {
+    grid-area: more-news;
+  }
+
+  section:nth-of-type(3) {
+    grid-area: trending;
+  }
+
+  section:last-of-type {
+  grid-area: happening;
+}
+}
